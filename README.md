@@ -23,7 +23,7 @@
 查看 [最新release](https://github.com/weihuagu/cloud-torrent/releases/latest) 或者通过以下命令行下载安装
 
 ```
-curl https://i.jpillora.com/WeihuaGu/cloud-torrent! | bash
+sudo curl https://i.jpillora.com/WeihuaGu/cloud-torrent! | sudo bash
 ```
 
 *Tip*: [开机自启动 `cloud-torrent` 教程](https://github.com/jpillora/cloud-torrent/wiki/Auto-Run-on-Reboot)
