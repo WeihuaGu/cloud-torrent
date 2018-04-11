@@ -5,7 +5,7 @@
   <form class="ui edit form">
     <h4 class="ui dividing header">Magnet URI Editor</h4>
     <div class="field">
-      <label>Name</label>
+      <label>名字</label>
       <div class="field">
         <input type="text"
         ng-model="magnet.name"
@@ -58,7 +58,7 @@
   <div ng-click="submitTorrent()"
     class="ui tiny blue button"
     ng-class="{loading: apiing, disabled: apiing }">
-    <span ng-show="mode.torrent">Start Torrent</span>
+    <span ng-show="mode.torrent">开始 Torrent</span>
   </div>
 </div>
 
@@ -72,8 +72,8 @@
     ng-class="{loading: searching,
       disabled: noResults || hasMore && results && results.length > 0
     }">
-    <span ng-show="noResults">No results!</span>
-    <span ng-show="!noResults">Search</span>
+    <span ng-show="noResults">没有搜索到结果!</span>
+    <span ng-show="!noResults">搜索</span>
   </div>
 </div>
 
