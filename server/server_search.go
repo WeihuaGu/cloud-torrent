@@ -155,5 +155,19 @@ var defaultSearchConfig = []byte(`{
 			"seeds": "td:nth-child(3)",
 			"peers": "td:nth-child(4)"
 		}
-	}
+	},
+	"torrentkitty": {
+		"name": "torrentkitty",
+		"url": "https://www.torrentkitty.tv/search/{{query}}/{{page:1}}",
+		"list": "table#archiveResult > tr",
+		"result": {
+			"name":"td.name",
+			"magnet": [a[href^=magnet],"@href"],
+			"size":"td.size"
+		}
+
+
+
+
+       }
 }`)
