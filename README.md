@@ -6,14 +6,13 @@
 
 ### 特性
 
-* Single binary
-* Cross platform
-* Embedded torrent search
+* 单文件
+* 跨平台
+* 提供种子搜索
 * Real-time updates
-* Mobile-friendly
-* Fast [content server](http://golang.org/pkg/net/http/#ServeContent)
+* 移动端友好
+* 快速 [content server](http://golang.org/pkg/net/http/#ServeContent)
 
-See [Future Features here](#future-features)
 
 ### 安装
 
@@ -63,8 +62,11 @@ $ cloud-torrent --help
   Version:
     0.X.Y
 
-  Read more:
-    https://github.com/jpillora/cloud-torrent
+  用法示例:
+  1.执行 cloud-torrent --port 7000 --config-path cloud-torrent.json --title "Cloud Torrent" --log 
+  2.在浏览器打来http://localhost:7000
+
+    
 
 ```
 
